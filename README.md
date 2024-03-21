@@ -39,9 +39,9 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 ### What I learned
 
-*
+* Use emmet to write html structure.
 ```html
-
+    (main>header>image+h1+p^.preparationTime>ul>li*3^^.ingredients>ul>li*5^^.instructions>ol>li*6{$.}^^.nutrition>p+section>.nutritionLabel*4>p.label+p.value)+footer>p>a:link*2
 ```
 
 *
@@ -51,7 +51,7 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 ### Continued development
 
-*
+* Getting more familiar with Emmet
 
 ## Useful resources
 
