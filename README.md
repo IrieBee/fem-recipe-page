@@ -23,12 +23,12 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-recipe-page/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-recipe-page/blob/main/images/screenshot.jpg)
 
 ### Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-recipe-page
-* Live Site URL: https://ltsybitsy.github.io/fem-recipe-page/
+* Solution URL: https://github.com/IrieBee/fem-recipe-page
+* Live Site URL: https://IrieBee.github.io/fem-recipe-page/
 
 ## My process
 
@@ -55,7 +55,8 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 ## Useful resources
 
-*
+* https://docs.emmet.io/abbreviations/syntax/ 
+    Abbreviations Syntax for emmet
 
 ## Acknowledgements
 
