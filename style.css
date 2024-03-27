@@ -1,7 +1,36 @@
+:root {
+    --primary-nutmeg: hsl(14, 45%, 36%);
+    --primary-darkRaspberry: hsl(332, 51%, 32%);
 
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-roseWhite: hsl(330, 100%, 98%);
+    --neutral-eggshell: hsl(30, 54%, 90%);
+    --neutral-lightGrey: hsl(30, 18%, 87%);
+    --neutral-wengeBrown: hsl(30, 10%, 34%);
+    --neutral-darkCharcoal: hsl(24, 5%, 18%);
+
+    --fs-s: 0.65rem;
+    --fs-m: 1rem;
+    --fs-l: 1.5rem;
+    --fs-xl: 2rem;
+
+    --fw-m: 400;
+    --fw-l: 600;
+    --fw-xl: 700;
+
+    --ff-header: 'YoungSerif', 'Times New Roman', Times, serif;
+    --ff-body: Outfit, sans-serif;
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(fonts/youngserif-regular-webfont.woff2),
+         url(fonts/youngserif-regular-webfont.woff);
+}
 
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
+
