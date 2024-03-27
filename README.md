@@ -49,7 +49,7 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
     @font-face {
         font-family: 'YoungSerif';
         src: url(fonts/youngserif-regular-webfont.woff2),
-            url(fonts/youngserif-regular-webfont.woff);
+             url(fonts/youngserif-regular-webfont.woff);
     }
 
 ```
@@ -60,11 +60,11 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 ## Useful resources
 
-* Abbreviations Syntax for emmet
+* Abbreviations Syntax for emmet: 
 https://docs.emmet.io/abbreviations/syntax/ 
     
-* Self-hosting fonts
-  https://www.youtube.com/watch?v=zK-yy6C2Nck&t=496s
+* Self-hosting fonts: 
+  https://www.youtube.com/watch?v=zK-yy6C2Nck&t=496s, 
   https://css-tricks.com/snippets/css/using-font-face-in-css/
     
 ## Acknowledgements
