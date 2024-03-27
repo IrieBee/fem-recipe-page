@@ -44,8 +44,13 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
     (main>header>image+h1+p^.preparationTime>ul>li*3^^.ingredients>ul>li*5^^.instructions>ol>li*6{$.}^^.nutrition>p+section>.nutritionLabel*4>p.label+p.value)+footer>p>a:link*2
 ```
 
-*
+* How to self-host fonts
 ```css
+    @font-face {
+        font-family: 'YoungSerif';
+        src: url(fonts/youngserif-regular-webfont.woff2),
+            url(fonts/youngserif-regular-webfont.woff);
+    }
 
 ```
 
@@ -55,9 +60,13 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 ## Useful resources
 
-* https://docs.emmet.io/abbreviations/syntax/ 
-    Abbreviations Syntax for emmet
-
+* Abbreviations Syntax for emmet
+https://docs.emmet.io/abbreviations/syntax/ 
+    
+* Self-hosting fonts
+  https://www.youtube.com/watch?v=zK-yy6C2Nck&t=496s
+  https://css-tricks.com/snippets/css/using-font-face-in-css/
+    
 ## Acknowledgements
 
 * [Odin project](https://www.theodinproject.com/)
