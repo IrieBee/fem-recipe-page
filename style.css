@@ -100,9 +100,15 @@ ul li {
     padding-left: 1.25rem;
 }
 
-ul li span {
+ol li {
+    font-weight: var(--fw-l);
+    padding-left: 1.25rem;
+}
+
+li > span {
     font-size: var(--fs-m);
     color: var(--neutral-wengeBrown);
+    font-weight: var(--fw-m);
 }
 
 .ingredients, .instructions{
