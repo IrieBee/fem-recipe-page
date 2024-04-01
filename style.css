@@ -9,10 +9,10 @@
     --neutral-wengeBrown: hsl(30, 10%, 34%);
     --neutral-darkCharcoal: hsl(24, 5%, 18%);
 
-    --fs-s: 0.65rem;
+    --fs-s: 0.75rem;
     --fs-m: 1rem;
-    --fs-l: 1.5rem;
-    --fs-xl: 2rem;
+    --fs-l: 1.75rem;
+    --fs-xl: 2.5rem;
 
     --fw-m: 400;
     --fw-l: 600;
@@ -33,4 +33,85 @@
     margin: 0;
     padding:0;
 }
+
+body {
+    min-height: 100vh;
+    font-family: var(--ff-body);
+    font-size: var(--fs-m);
+    font-weight: var(--fw-m);
+    background-color: var(--neutral-eggshell);
+    color: var(--neutral-wengeBrown);
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: var(--neutral-white);
+    max-width: 47.5rem;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+h1, h2{
+    font-family: var(--ff-header);
+    padding: 2rem 0 .75rem;
+}
+
+h1 {
+    color: var(--neutral-darkCharcoal);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-m);
+}
+
+h2 {
+    color: var(--primary-nutmeg);
+    font-size: var(--fs-l);
+    font-weight: var(--fw-m);
+}
+
+.preparationTime {
+    background-color: var(--neutral-roseWhite);
+    padding: 1.35rem 1.75rem;
+    border-radius: 0.5rem;
+    margin-top: 1.9rem;
+}
+
+h3 {
+    color: var(--primary-darkRaspberry);
+    font-weight: var(--fw-l);
+}
+
+ul {
+    line-height: 2;
+    padding-left: 1rem;
+}
+
+ul li {
+    font-size: var(--fs-s);
+    color: var(--primary-darkRaspberry);
+    padding-left: 1.25rem;
+}
+
+ul li span {
+    font-size: var(--fs-m);
+    color: var(--neutral-wengeBrown);
+}
+
+.ingredients, .instructions{
+    border-bottom: 0.1rem solid var(--neutral-lightGrey);
+    padding-bottom: 2rem;
+}
+
+ol {
+    padding-left: 1rem;
+}
+
 
