@@ -51,7 +51,18 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
         src: url(fonts/youngserif-regular-webfont.woff2),
              url(fonts/youngserif-regular-webfont.woff);
     }
+```
+* Customize list item bullets using css (add 'span' to list items in html):
+```css
+    ul li {
+    font-size: var(--fs-s);
+    color: var(--primary-darkRaspberry);
+}
 
+ul li span {
+    font-size: var(--fs-m);
+    color: var(--neutral-wengeBrown);
+}
 ```
 
 ### Continued development
@@ -67,6 +78,9 @@ https://docs.emmet.io/abbreviations/syntax/
   https://www.youtube.com/watch?v=zK-yy6C2Nck&t=496s, 
   https://css-tricks.com/snippets/css/using-font-face-in-css/
     
+* ;Customize list item bullets:
+    https://stackoverflow.com/a/6457118/23938604
+
 ## Acknowledgements
 
 * [Odin project](https://www.theodinproject.com/)
