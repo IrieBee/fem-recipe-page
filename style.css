@@ -171,3 +171,26 @@ footer a:hover {
     color: var(--neutral-darkCharcoal);
 }
 
+@media (max-width: 500px) {
+    main {
+        border-radius: 0;
+        padding: 0;
+    }
+    img {
+        border-radius: 0;
+    }
+    h1 {
+        line-height: 1.1;
+        padding: 1.25rem;
+    }
+    header p {
+        padding: 0 1.25rem 2rem;
+    }
+    div {
+        padding: 0 1.25rem;
+    }
+    .preparationTime {
+        max-width: 90%;
+        margin: auto;
+    }
+}
