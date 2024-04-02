@@ -120,4 +120,35 @@ ol {
     padding-left: 1rem;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section div {
+    border-bottom: 0.1rem solid var(--neutral-lightGrey);
+    padding: 0.75rem;
+}
+
+section div:last-child {
+    border-bottom: none;
+    padding-bottom: 0rem;
+}
+
+section div p{
+    display: inline-block;
+}
+
+.nutrition p {
+    padding-bottom: 0.75rem;
+}
+
+.label, .value {
+    width: 49%;
+}
+
+.value {
+    font-weight: var(--fw-xl);
+    color: var(--primary-nutmeg)
+}
 
