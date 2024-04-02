@@ -158,3 +158,16 @@ section div p{
     color: var(--primary-nutmeg)
 }
 
+footer {
+    font-size: var(--fs-s);
+    margin-top: 0.75rem;
+}
+
+footer a {
+    color: var(--primary-nutmeg);
+}
+
+footer a:hover {
+    color: var(--neutral-darkCharcoal);
+}
+
