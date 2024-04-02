@@ -11,6 +11,7 @@
 
     --fs-s: 0.75rem;
     --fs-m: 1rem;
+    --fs-ml: 1.15rem;
     --fs-l: 1.75rem;
     --fs-xl: 2.5rem;
 
@@ -86,8 +87,9 @@ h2 {
     margin-top: 1.9rem;
 }
 
-h3 {
+.preparationTime p {
     color: var(--primary-darkRaspberry);
+    font-size: var(--fs-ml);
     font-weight: var(--fw-l);
 }
 
