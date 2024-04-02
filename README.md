@@ -46,15 +46,15 @@ This challenge will help me focus on writing semantic HTML. Use appropriate elem
 
 * How to self-host fonts
 ```css
-    @font-face {
-        font-family: 'YoungSerif';
-        src: url(fonts/youngserif-regular-webfont.woff2),
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(fonts/youngserif-regular-webfont.woff2),
              url(fonts/youngserif-regular-webfont.woff);
     }
 ```
 * Customize list item bullets using css (add 'span' to list items in html):
 ```css
-    ul li {
+ul li {
     font-size: var(--fs-s);
     color: var(--primary-darkRaspberry);
 }
