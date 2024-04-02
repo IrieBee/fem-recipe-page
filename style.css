@@ -62,19 +62,21 @@ img {
 
 h1, h2{
     font-family: var(--ff-header);
-    padding: 2rem 0 .75rem;
 }
 
 h1 {
     color: var(--neutral-darkCharcoal);
     font-size: var(--fs-xl);
     font-weight: var(--fw-m);
+    padding: 2rem 0 .75rem;
 }
 
 h2 {
     color: var(--primary-nutmeg);
     font-size: var(--fs-l);
     font-weight: var(--fw-m);
+    padding: 1.75rem 0 0.5rem;
+
 }
 
 .preparationTime {
@@ -102,7 +104,11 @@ ul li {
 
 ol li {
     font-weight: var(--fw-l);
-    padding-left: 1.25rem;
+    padding: 0 0 .5rem 1.25rem;
+}
+
+ol li:last-child {
+    /* padding-bottom: 0; */
 }
 
 li > span {
@@ -113,11 +119,11 @@ li > span {
 
 .ingredients, .instructions{
     border-bottom: 0.1rem solid var(--neutral-lightGrey);
-    padding-bottom: 2rem;
+    padding-bottom: 1.75rem;
 }
 
 ol {
-    padding-left: 1rem;
+    padding: 0rem 1rem;
 }
 
 section {
@@ -127,7 +133,7 @@ section {
 
 section div {
     border-bottom: 0.1rem solid var(--neutral-lightGrey);
-    padding: 0.75rem;
+    padding: 0.5rem;
 }
 
 section div:last-child {
