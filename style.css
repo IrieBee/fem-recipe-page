@@ -126,22 +126,22 @@ ol {
     padding: 0rem 1rem;
 }
 
-section {
+.section {
     display: flex;
     flex-direction: column;
 }
 
-section div {
+.section div {
     border-bottom: 0.1rem solid var(--neutral-lightGrey);
     padding: 0.5rem;
 }
 
-section div:last-child {
+.section div:last-child {
     border-bottom: none;
     padding-bottom: 0rem;
 }
 
-section div p{
+.section div p{
     display: inline-block;
 }
 
